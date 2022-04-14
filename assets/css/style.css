@@ -84,16 +84,96 @@ body{
 .Comfort{
     font-family: "Comfortaa";
 }
+/* --------------------------- Настройка общей шапки сайта, её элементов --------------------------- */
+.ModalBody header{
+    background-image: url(../images/Register/HeaderBgModalForms.png);
+    height: 405px;
+    width: 1920px;
+}
+.ModalBody header .HeaderDiv{
+    display: flex;
+    padding: 0 352px;
+    justify-content: space-between;
+    height: 162px;
+    align-items: center;
+}
+.ModalBody header .HeaderDiv a{
+    color: white;
+}
+.ModalBody header div a{
+    transition: 0.35s all;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.ModalBody header div div a{
+    text-transform: uppercase;
+    display: flex;
+    width: 132px;
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.55s all;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.ModalBody header div div{
+    display: flex;
+}
+.ModalBody header div div a:hover{
+    background-color: white;
+    color: #bb6df3;
+}
+/* --------------------------- Настройка общего подвала сайта, его элементов --------------------------- */
+footer{
+    height: 1086px;
+    width: 1920px;
+    background-image: url(../images/index/FooterBg.png);
+}
 /* ---------------------------------------------------------------------- Index.html ---------------------------------------------------------------------- */
 
-/* --------------------------- Настройка шапки сайта, ее элементов --------------------------- */
-header{
+/* --------------------------- Настройка первой секции страницы index.html, ее элементов --------------------------- */
+.IndexHTML header{
     width: 1920px;
     height: 162px;
     display: flex;
-    align-items: center;
     padding: 0 352px;
     justify-content: space-between;
+}
+.IndexHTML header a{
+    transition: 0.35s all;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.IndexHTML header div a{
+    text-transform: uppercase;
+    display: flex;
+    width: 132px;
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.55s all;
+    font-size: 13.5px;
+    font-weight: 500;
+}
+.IndexHTML header div{
+    display: flex;
+}
+.IndexHTML header div a:hover{
+    background-color: white;
+    color: #bb6df3;
+}
+.IndexHTML header{
+    align-items: center;
 }
 .IndexHTML .Sec1{
     background: url(../images/index/Sec1Bg.png) no-repeat center center / cover;
@@ -115,34 +195,6 @@ a{
 }
 a:hover{
     transform: scale(1.08);
-}
-header a{
-    transition: 0.35s all;
-    color: white;
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-header div a{
-    text-transform: uppercase;
-    display: flex;
-    width: 132px;
-    height: 39px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
-    border-radius: 30px;
-    font-family: "Poppins", sans-serif;
-    transition: 0.55s all;
-    font-size: 13.5px;
-    font-weight: 500;
-}
-header div{
-    display: flex;
-}
-header div a:hover{
-    background-color: white;
-    color: #bb6df3;
 }
 .IndexHTML .Sec1Div{
     padding: 128px 0 0 352px;
@@ -175,16 +227,203 @@ header div a:hover{
 .IndexHTML .Sec1Div a{
     transition: 0.5s all;
 }
-/* --------------------------- Настройка первой секции сайта, ее элементов --------------------------- */
-
 /* --------------------------- Настройка второй секции сайта, ее элементов --------------------------- */
-
+.IndexHTML .Sec2Div{
+    display: flex;
+    height: 1167px;
+    width: 1920px;
+    padding-top: 60px;
+}
+.IndexHTML .Sec2Div div img{
+    margin-right: 25px;
+    width: 93px;
+    height: 90px;
+}
+.IndexHTML .Sec2Div div div{
+    margin-bottom: 40px;
+}
+.IndexHTML .Sec2Div div div h4{
+    margin-top: 7px;
+    width: 441px;
+}
+.IndexHTML .Sec2Div div div p{
+    color: #2b4964;
+    line-height: 150%;
+    font-size: 18px;
+}
 /* --------------------------- Настройка третьей секции сайта, ее элементов --------------------------- */
+.IndexHTML .Sec3Div{
+    text-align: center;
+    height: 1279px;
+    width: 1920px;
+}
+.IndexHTML .Sec3Div h2{
+    margin-bottom: 23px;
+}
+.IndexHTML .Sec3Div .FirstPSec3{
+    color: #79788f;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.IndexHTML .Sec3Div div div .MemberShipFirstCard{
+    transition: 0.3s all;
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.IndexHTML .RowSec3Div{
+    display: flex;
+    margin-top: 76px;
+}
+.IndexHTML .Sec3Div div div div:hover{
+    filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.1));
+    cursor: pointer;
+    height: 1002px;
+    width: 620px;
+}
 
+.IndexHTML .Sec3Div div div ul li{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #567796;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 47px;
+}
+.IndexHTML .Sec3Div div div ul li::after{
+    content: url(../images/index/check.svg);
+    width: 20px;
+    height: 17px;
+}
+.IndexHTML .Sec3Div div div ul{
+    align-self: center;
+    width: 308px;
+}
+.IndexHTML .Sec3Div div div .Sec3Button{
+    width: 0.5px;
+    height: 0.5px;
+    color: transparent;
+    background-color: transparent;
+    transition: 0.4s all;
+}
+.IndexHTML .Sec3Div div div .MoneyBack{
+    font-size: 0.5px;
+    color: transparent;
+    transition: 0.4s all;
+}
+.IndexHTML .Sec3Div div div div:hover .Sec3Button{
+    width: 308px;
+    height: 79px;
+    color: white;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.IndexHTML .Sec3Div div div div:hover .MemberShipTopFirst{
+    width: 450px;
+}
+
+.IndexHTML .Sec3Div div div div .MemberShipTopFirst{
+    width: 291px;
+    transition: 0.4s all;
+    height: 140px;
+}
+.IndexHTML .Sec3Div div div div .MemberShipTopSecond{
+    width: 457px;
+    transition: 0.4s all;
+    height: 247px;
+}
+.IndexHTML .Sec3Div div div div:hover .MoneyBack{
+    font-size: 18px;
+    font-weight: 400;
+    color: #567796;
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 47px;
+}
+.IndexHTML .Sec3Div .MemberShipThirdCard{
+    transition: 0.3s all;
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.IndexHTML .Sec3Div div div div:hover .MemberShipTopThird{
+    height: 351px;
+}
+.MemberShipTopThird{
+    height: 351px;
+}
 /* --------------------------- Настройка четвертой секции сайта, ее элементов --------------------------- */
-
-/* --------------------------- Настройка подвала сайта, его элементов --------------------------- */
-
+.IndexHTML .Sec4Div{
+    width: 1920px;
+    height: 261px;
+    background: url(../images/index/Sec4Bg.png);
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.IndexHTML .Sec4Div .Icons{
+    display: flex;
+}
+.IndexHTML .Sec4Div .Icons .IconDownloaded{
+    width: 106px;
+    height: 106px;
+    margin-right: 30px;
+}
+.IndexHTML .Sec4Div .Icons .Registered{
+    width: 74px;
+    height: 74px;
+    margin: 16px 35px 0 106px;
+}
+.IndexHTML .Sec4Div .Icons p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px;
+    color: #718dc2;
+}
+.IndexHTML .Sec4Div .Icons h3{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 16px;
+    color: #425B8C;
+}
+.IndexHTML .Sec4Div .Icons img{
+    animation: scaling;
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
+}
+@keyframes scaling {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 /* ---------------------------------------------------------------------- Contact.html ---------------------------------------------------------------------- */
 
 /* --------------------------- Настройка шапки сайта, ее элементов --------------------------- */
@@ -197,7 +436,6 @@ header div a:hover{
 
 /* --------------------------- Настройка четвертой секции сайта, ее элементов --------------------------- */
 
-/* --------------------------- Настройка подвала сайта, его элементов --------------------------- */
 
 /* ---------------------------------------------------------------------- FAQ.html ---------------------------------------------------------------------- */
 
@@ -211,7 +449,6 @@ header div a:hover{
 
 /* --------------------------- Настройка четвертой секции сайта, ее элементов --------------------------- */
 
-/* --------------------------- Настройка подвала сайта, его элементов --------------------------- */
 
 /* ---------------------------------------------------------------------- Login.html ---------------------------------------------------------------------- */
 
@@ -225,7 +462,6 @@ header div a:hover{
 
 /* --------------------------- Настройка четвертой секции сайта, ее элементов --------------------------- */
 
-/* --------------------------- Настройка подвала сайта, его элементов --------------------------- */
 
 /* ---------------------------------------------------------------------- Price.html ---------------------------------------------------------------------- */
 
@@ -239,7 +475,6 @@ header div a:hover{
 
 /* --------------------------- Настройка четвертой секции сайта, ее элементов --------------------------- */
 
-/* --------------------------- Настройка подвала сайта, его элементов --------------------------- */
 
 /* ---------------------------------------------------------------------- Profile.html ---------------------------------------------------------------------- */
 
@@ -253,8 +488,6 @@ header div a:hover{
 
 /* --------------------------- Настройка четвертой секции сайта, ее элементов --------------------------- */
 
-/* --------------------------- Настройка подвала сайта, его элементов --------------------------- */
-
 /* ---------------------------------------------------------------------- Register.html ---------------------------------------------------------------------- */
 
 /* --------------------------- Настройка шапки сайта, ее элементов --------------------------- */
@@ -266,5 +499,3 @@ header div a:hover{
 /* --------------------------- Настройка третьей секции сайта, ее элементов --------------------------- */
 
 /* --------------------------- Настройка четвертой секции сайта, ее элементов --------------------------- */
-
-/* --------------------------- Настройка подвала сайта, его элементов --------------------------- */
