@@ -133,6 +133,60 @@ footer{
     height: 1086px;
     width: 1920px;
     background-image: url(../images/index/FooterBg.png);
+    padding: 418px 185px 0 135px;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    text-align: center;
+}
+footer .ThreeFootersH2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 132px;
+    text-align: left;
+}
+footer .FooterH2{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 70px;
+}
+footer .WhenUseSkyBox{
+    width: 418px;
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 20px;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 28px;
+}
+footer ul a{
+    text-decoration: underline;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    transition: 0.5s all;
+}
+footer ul a:hover{
+    transform: scale(1.08);
+    color: #43A1D6;
+}
+footer .ContactUsFooter p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+footer img{
+    margin-top: 79px;
+    margin-bottom: 65px;
+}
+footer .Copyright{
+    font-size: 24px;
+    font-weight: 700;
 }
 /* ---------------------------------------------------------------------- Index.html ---------------------------------------------------------------------- */
 
